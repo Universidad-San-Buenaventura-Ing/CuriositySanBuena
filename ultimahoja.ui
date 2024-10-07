@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CuartaHoja</class>
+ <widget class="QDialog" name="CuartaHoja">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>490</width>
+    <height>763</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>491</width>
+     <height>761</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>source/fondos.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QListView" name="Precipitacion">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>471</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-right-color: rgb(85, 170, 127);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TextoPrecipitacion">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="text">
+    <string>PRECIPITACIÓN</string>
+   </property>
+  </widget>
+  <widget class="QListView" name="CalidadAire">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>471</width>
+     <height>341</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TextoCalidad">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>370</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;
+font: 14pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CALIDAD DEL AIRE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BotonRegresar">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>710</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(59, 170, 128);</string>
+   </property>
+   <property name="text">
+    <string>←</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Imprimir">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>710</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(76, 170, 159);
+background-color: rgb(58, 170, 124);
+background-color: rgb(76, 170, 159);
+</string>
+   </property>
+   <property name="text">
+    <string>🖨</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
